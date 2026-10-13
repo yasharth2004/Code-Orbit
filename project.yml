@@ -1,0 +1,65 @@
+name: CodeOrbit
+options:
+  bundleIdPrefix: com.codeorbit
+  deploymentTarget:
+    macOS: "14.0"
+settings:
+  base:
+    MACOSX_DEPLOYMENT_TARGET: "14.0"
+    SWIFT_VERSION: "5.9"
+    CODE_SIGN_STYLE: Automatic
+    CODE_SIGN_IDENTITY: "-"
+    DEVELOPMENT_TEAM: ""
+
+targets:
+  CodeOrbit:
+    type: application
+    platform: macOS
+    deploymentTarget: "14.0"
+    sources:
+      - path: Sources/CodeOrbit
+        excludes:
+          - "**/*.entitlements"
+      - path: Sources/CodeOrbitWidgets/WidgetIntents.swift
+    dependencies:
+      - target: CodeOrbitWidgets
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.codeorbit.app
+        INFOPLIST_FILE: Sources/CodeOrbit/Info.plist
+        CODE_SIGN_ENTITLEMENTS: Sources/CodeOrbit/CodeOrbit.entitlements
+        GENERATE_INFOPLIST_FILE: false
+        ENABLE_HARDENED_RUNTIME: false
+        OTHER_LDFLAGS:
+          - "-framework"
+          - "AppIntents"
+
+  CodeOrbitWidgets:
+    type: app-extension
+    platform: macOS
+    deploymentTarget: "14.0"
+    sources:
+      - path: Sources/CodeOrbitWidgets
+        excludes:
+          - "**/*.entitlements"
+      - path: Sources/CodeOrbit/ActivityService.swift
+      - path: Sources/CodeOrbit/Models.swift
+      - path: Sources/CodeOrbit/LeetCodeWidgetView.swift
+      - path: Sources/CodeOrbit/LeetCodeStreakWidgetView.swift
+      - path: Sources/CodeOrbit/GitHubHeatmapWidgetView.swift
+      - path: Sources/CodeOrbit/Resources
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.codeorbit.app.widgets
+        INFOPLIST_FILE: Sources/CodeOrbitWidgets/Info.plist
+        CODE_SIGN_ENTITLEMENTS: Sources/CodeOrbitWidgets/CodeOrbitWidgets.entitlements
+        GENERATE_INFOPLIST_FILE: false
+        ENABLE_HARDENED_RUNTIME: false
+        SWIFT_ACTIVE_COMPILATION_CONDITIONS: WIDGET_EXTENSION
+        OTHER_LDFLAGS:
+          - "-framework"
+          - "WidgetKit"
+          - "-framework"
+          - "AppIntents"
+          - "-framework"
+          - "SwiftUI"

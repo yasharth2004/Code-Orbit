@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		004D2E63DF918EFBC67A7B7B /* LeetCodeWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2495AF71EF8025C3C9EB82B0 /* LeetCodeWidgetView.swift */; };
+		051F248182A381F5409BB419 /* mascot.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A3A5BDC5AE2231C0E9FA481 /* mascot.png */; };
+		10FA51EAEB23EE651758C69C /* badge_base_sep.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B2CA7E0E10A94AB8E91BE3B /* badge_base_sep.png */; };
+		1119885DC5208FFF6091A935 /* WidgetIntents.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACAC8944B42BAB5930F8908 /* WidgetIntents.swift */; };
+		1850504D6C4C57E2E6450137 /* badge_aug.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C4CFC486EE7848D04DFD4CD /* badge_aug.png */; };
+		21F6AB88EEFE8151C364691B /* CodeOrbitWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB486703B245D0A3928CED5F /* CodeOrbitWidget.swift */; };
+		300C9908C019C3601AFBDDD7 /* CodeOrbit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0DA03C68939B84FCA8E0C2 /* CodeOrbit.swift */; };
+		31899C7E8E79B19AFC4418DF /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88679F1A0923077DAB927BB6 /* App.swift */; };
+		31BD8D1D8198403CE07F3D81 /* badge_base_dec.png in Resources */ = {isa = PBXBuildFile; fileRef = 92000CBEDFD3816D1D197649 /* badge_base_dec.png */; };
+		50FF55F86F3E756EC33C3DE6 /* leetcode_badge_oct.png in Resources */ = {isa = PBXBuildFile; fileRef = 35F22999C8039110755EC66B /* leetcode_badge_oct.png */; };
+		5391F4568BECF59203656738 /* badge_base_jan.png in Resources */ = {isa = PBXBuildFile; fileRef = 7557052ABD63BAE2A12DF591 /* badge_base_jan.png */; };
+		541A3DBBAE42C7537C3A010C /* ActivityService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06ABABE007B06371BE681BC1 /* ActivityService.swift */; };
+		58B824B979CA670B0AA52E6F /* badge_base_sep.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B2CA7E0E10A94AB8E91BE3B /* badge_base_sep.png */; };
+		5F3D722CA863E4756A2C5A6E /* LeetCodeStreakWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE79D2042C0F0D87FF91040 /* LeetCodeStreakWidgetView.swift */; };
+		61F2AE63A8E384D5C8F1A73E /* leetcode_badge_oct.png in Resources */ = {isa = PBXBuildFile; fileRef = 35F22999C8039110755EC66B /* leetcode_badge_oct.png */; };
+		62C48BD1D949F226FC985809 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100E683F798563CF221F3BB /* Models.swift */; };
+		62D3425E88A6544004D1B5B3 /* mascot-alt.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A18E6D16BE62680CD336FDA /* mascot-alt.png */; };
+		78175F26FA2BF83A74F81C9B /* badge_aug.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C4CFC486EE7848D04DFD4CD /* badge_aug.png */; };
+		81301AC3108812C1771A34FD /* badge_base_aug.png in Resources */ = {isa = PBXBuildFile; fileRef = 18D4A623390AF55B5E4201CD /* badge_base_aug.png */; };
+		8240BF198936254E2BE1532C /* CodeOrbitWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC487F711C34C8D110CA59C /* CodeOrbitWidgetBundle.swift */; };
+		833BA869B764A96836AE6358 /* WidgetIntents.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACAC8944B42BAB5930F8908 /* WidgetIntents.swift */; };
+		88DDBA35E47E9997CB25E2C7 /* SetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A544982EC1DB5B2F31F521 /* SetupView.swift */; };
+		8A0E36F3DA4EA7E49CE6B6AA /* GitHubHeatmapWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D2FB9C860996296FCC7E62 /* GitHubHeatmapWidgetView.swift */; };
+		8B0F9FF9048ED4714C162133 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100E683F798563CF221F3BB /* Models.swift */; };
+		936891B88A3AA25D937B4A98 /* CodeOrbitWidgets.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 37EB1F1F77ACE2ED085EF5E1 /* CodeOrbitWidgets.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9E790B957E8629F3E1A8E246 /* mascot.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A3A5BDC5AE2231C0E9FA481 /* mascot.png */; };
+		A90122237CA0199218A447D1 /* badge_base_clean.png in Resources */ = {isa = PBXBuildFile; fileRef = 661E0E280D8C467CBDADA929 /* badge_base_clean.png */; };
+		AA56E706A5AB1303EA0ECA3D /* LeetCodeWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2495AF71EF8025C3C9EB82B0 /* LeetCodeWidgetView.swift */; };
+		B20EB09E57622FB6F08BE28E /* badge_base_aug.png in Resources */ = {isa = PBXBuildFile; fileRef = 18D4A623390AF55B5E4201CD /* badge_base_aug.png */; };
+		B3E29ADE2DAED7AD0259E987 /* badge_base_clean.png in Resources */ = {isa = PBXBuildFile; fileRef = 661E0E280D8C467CBDADA929 /* badge_base_clean.png */; };
+		B64778D5C9811565E0E0E826 /* WidgetSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD872EA5325787A35A6D84BE /* WidgetSelectionView.swift */; };
+		BD95804F42A0BD0F542F2F0D /* LeetCodeStreakWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE79D2042C0F0D87FF91040 /* LeetCodeStreakWidgetView.swift */; };
+		C8C7AAC446E398072C6A1EEB /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E3847EA2CA7AA53B4B9D27 /* DashboardView.swift */; };
+		E49348D655381860B0C2CA7A /* mascot-alt.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A18E6D16BE62680CD336FDA /* mascot-alt.png */; };
+		E566E1D29404CDE8C49A4F80 /* test_badge.png in Resources */ = {isa = PBXBuildFile; fileRef = E2F024C5320F108FD9738902 /* test_badge.png */; };
+		E6035D792E4F57F50502657F /* Logic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B6F5FDD1E1406B3FA00AD5 /* Logic.swift */; };
+		E8C936C78EC5633FAF3F0BD2 /* badge_base_dec.png in Resources */ = {isa = PBXBuildFile; fileRef = 92000CBEDFD3816D1D197649 /* badge_base_dec.png */; };
+		EAD4D0030E5A7516B135A89B /* test_badge.png in Resources */ = {isa = PBXBuildFile; fileRef = E2F024C5320F108FD9738902 /* test_badge.png */; };
+		F3902850F8A68C293D9D534A /* ActivityService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06ABABE007B06371BE681BC1 /* ActivityService.swift */; };
+		F5626B943B533487AE7A55BF /* GitHubHeatmapWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D2FB9C860996296FCC7E62 /* GitHubHeatmapWidgetView.swift */; };
+		FB6C1EA248095C3ABFB90E04 /* badge_base_jan.png in Resources */ = {isa = PBXBuildFile; fileRef = 7557052ABD63BAE2A12DF591 /* badge_base_jan.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F655ABF61A6A2D27DA29F557 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FDBA7ACD0598FE52379E216 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 622BAC085B4F87D042E7A8B1;
+			remoteInfo = CodeOrbitWidgets;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4B1D8E1212408A5F81713AB5 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				936891B88A3AA25D937B4A98 /* CodeOrbitWidgets.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		06ABABE007B06371BE681BC1 /* ActivityService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityService.swift; sourceTree = "<group>"; };
+		0A18E6D16BE62680CD336FDA /* mascot-alt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mascot-alt.png"; sourceTree = "<group>"; };
+		0B2CA7E0E10A94AB8E91BE3B /* badge_base_sep.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = badge_base_sep.png; sourceTree = "<group>"; };
+		18D4A623390AF55B5E4201CD /* badge_base_aug.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = badge_base_aug.png; sourceTree = "<group>"; };
+		21D2FB9C860996296FCC7E62 /* GitHubHeatmapWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubHeatmapWidgetView.swift; sourceTree = "<group>"; };
+		2495AF71EF8025C3C9EB82B0 /* LeetCodeWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCodeWidgetView.swift; sourceTree = "<group>"; };
+		2FE6D0035B8677FA80BD80A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		35F22999C8039110755EC66B /* leetcode_badge_oct.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leetcode_badge_oct.png; sourceTree = "<group>"; };
+		37EB1F1F77ACE2ED085EF5E1 /* CodeOrbitWidgets.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CodeOrbitWidgets.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DC487F711C34C8D110CA59C /* CodeOrbitWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeOrbitWidgetBundle.swift; sourceTree = "<group>"; };
+		3F0DA03C68939B84FCA8E0C2 /* CodeOrbit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeOrbit.swift; sourceTree = "<group>"; };
+		56E3847EA2CA7AA53B4B9D27 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		661E0E280D8C467CBDADA929 /* badge_base_clean.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = badge_base_clean.png; sourceTree = "<group>"; };
+		6C4CFC486EE7848D04DFD4CD /* badge_aug.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = badge_aug.png; sourceTree = "<group>"; };
+		7557052ABD63BAE2A12DF591 /* badge_base_jan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = badge_base_jan.png; sourceTree = "<group>"; };
+		79A544982EC1DB5B2F31F521 /* SetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupView.swift; sourceTree = "<group>"; };
+		7AF0E614E910AA90A3F13531 /* CodeOrbit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeOrbit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81B6F5FDD1E1406B3FA00AD5 /* Logic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logic.swift; sourceTree = "<group>"; };
+		88679F1A0923077DAB927BB6 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		92000CBEDFD3816D1D197649 /* badge_base_dec.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = badge_base_dec.png; sourceTree = "<group>"; };
+		9A3A5BDC5AE2231C0E9FA481 /* mascot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mascot.png; sourceTree = "<group>"; };
+		9DE79D2042C0F0D87FF91040 /* LeetCodeStreakWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCodeStreakWidgetView.swift; sourceTree = "<group>"; };
+		A100E683F798563CF221F3BB /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		AB486703B245D0A3928CED5F /* CodeOrbitWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeOrbitWidget.swift; sourceTree = "<group>"; };
+		ADB82C3A4B46C8109B5E614B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		BACAC8944B42BAB5930F8908 /* WidgetIntents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetIntents.swift; sourceTree = "<group>"; };
+		CD872EA5325787A35A6D84BE /* WidgetSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetSelectionView.swift; sourceTree = "<group>"; };
+		E2F024C5320F108FD9738902 /* test_badge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test_badge.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		21D72FECB3FC10FB4665CD90 /* CodeOrbitWidgets */ = {
+			isa = PBXGroup;
+			children = (
+				AB486703B245D0A3928CED5F /* CodeOrbitWidget.swift */,
+				3DC487F711C34C8D110CA59C /* CodeOrbitWidgetBundle.swift */,
+				2FE6D0035B8677FA80BD80A0 /* Info.plist */,
+				BACAC8944B42BAB5930F8908 /* WidgetIntents.swift */,
+			);
+			name = CodeOrbitWidgets;
+			path = Sources/CodeOrbitWidgets;
+			sourceTree = "<group>";
+		};
+		3920BEFD0691C6028E848A30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7AF0E614E910AA90A3F13531 /* CodeOrbit.app */,
+				37EB1F1F77ACE2ED085EF5E1 /* CodeOrbitWidgets.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D2A1F899FB41013FFD081BB /* CodeOrbit */ = {
+			isa = PBXGroup;
+			children = (
+				06ABABE007B06371BE681BC1 /* ActivityService.swift */,
+				88679F1A0923077DAB927BB6 /* App.swift */,
+				3F0DA03C68939B84FCA8E0C2 /* CodeOrbit.swift */,
+				56E3847EA2CA7AA53B4B9D27 /* DashboardView.swift */,
+				21D2FB9C860996296FCC7E62 /* GitHubHeatmapWidgetView.swift */,
+				ADB82C3A4B46C8109B5E614B /* Info.plist */,
+				9DE79D2042C0F0D87FF91040 /* LeetCodeStreakWidgetView.swift */,
+				2495AF71EF8025C3C9EB82B0 /* LeetCodeWidgetView.swift */,
+				81B6F5FDD1E1406B3FA00AD5 /* Logic.swift */,
+				A100E683F798563CF221F3BB /* Models.swift */,
+				79A544982EC1DB5B2F31F521 /* SetupView.swift */,
+				CD872EA5325787A35A6D84BE /* WidgetSelectionView.swift */,
+				FFB3DAE560264EA8AC366208 /* Resources */,
+			);
+			name = CodeOrbit;
+			path = Sources/CodeOrbit;
+			sourceTree = "<group>";
+		};
+		EA91D5306C8BC8BAB7B36653 = {
+			isa = PBXGroup;
+			children = (
+				3D2A1F899FB41013FFD081BB /* CodeOrbit */,
+				21D72FECB3FC10FB4665CD90 /* CodeOrbitWidgets */,
+				3920BEFD0691C6028E848A30 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFB3DAE560264EA8AC366208 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6C4CFC486EE7848D04DFD4CD /* badge_aug.png */,
+				18D4A623390AF55B5E4201CD /* badge_base_aug.png */,
+				661E0E280D8C467CBDADA929 /* badge_base_clean.png */,
+				92000CBEDFD3816D1D197649 /* badge_base_dec.png */,
+				7557052ABD63BAE2A12DF591 /* badge_base_jan.png */,
+				0B2CA7E0E10A94AB8E91BE3B /* badge_base_sep.png */,
+				35F22999C8039110755EC66B /* leetcode_badge_oct.png */,
+				0A18E6D16BE62680CD336FDA /* mascot-alt.png */,
+				9A3A5BDC5AE2231C0E9FA481 /* mascot.png */,
+				E2F024C5320F108FD9738902 /* test_badge.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		622BAC085B4F87D042E7A8B1 /* CodeOrbitWidgets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A742C550134E53381DFFC31 /* Build configuration list for PBXNativeTarget "CodeOrbitWidgets" */;
+			buildPhases = (
+				40E4FA43C3B8ECA88247FF19 /* Sources */,
+				595E5CD1516BBB078739A50A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CodeOrbitWidgets;
+			packageProductDependencies = (
+			);
+			productName = CodeOrbitWidgets;
+			productReference = 37EB1F1F77ACE2ED085EF5E1 /* CodeOrbitWidgets.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		F33D8A8F073BAE23F72D12AC /* CodeOrbit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 913EE04FEE3B943ADBBE9B2A /* Build configuration list for PBXNativeTarget "CodeOrbit" */;
+			buildPhases = (
+				D743B9D07CB22A61CA19DF60 /* Sources */,
+				847B8BCAFA25B4DAA733D286 /* Resources */,
+				4B1D8E1212408A5F81713AB5 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABC574AC38E11F7B1A9220E6 /* PBXTargetDependency */,
+			);
+			name = CodeOrbit;
+			packageProductDependencies = (
+			);
+			productName = CodeOrbit;
+			productReference = 7AF0E614E910AA90A3F13531 /* CodeOrbit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FDBA7ACD0598FE52379E216 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					622BAC085B4F87D042E7A8B1 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+					F33D8A8F073BAE23F72D12AC = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BF20D941C141D912DF53BDE5 /* Build configuration list for PBXProject "CodeOrbit" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = EA91D5306C8BC8BAB7B36653;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 3920BEFD0691C6028E848A30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F33D8A8F073BAE23F72D12AC /* CodeOrbit */,
+				622BAC085B4F87D042E7A8B1 /* CodeOrbitWidgets */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		595E5CD1516BBB078739A50A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78175F26FA2BF83A74F81C9B /* badge_aug.png in Resources */,
+				81301AC3108812C1771A34FD /* badge_base_aug.png in Resources */,
+				A90122237CA0199218A447D1 /* badge_base_clean.png in Resources */,
+				E8C936C78EC5633FAF3F0BD2 /* badge_base_dec.png in Resources */,
+				FB6C1EA248095C3ABFB90E04 /* badge_base_jan.png in Resources */,
+				10FA51EAEB23EE651758C69C /* badge_base_sep.png in Resources */,
+				61F2AE63A8E384D5C8F1A73E /* leetcode_badge_oct.png in Resources */,
+				62D3425E88A6544004D1B5B3 /* mascot-alt.png in Resources */,
+				9E790B957E8629F3E1A8E246 /* mascot.png in Resources */,
+				E566E1D29404CDE8C49A4F80 /* test_badge.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847B8BCAFA25B4DAA733D286 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1850504D6C4C57E2E6450137 /* badge_aug.png in Resources */,
+				B20EB09E57622FB6F08BE28E /* badge_base_aug.png in Resources */,
+				B3E29ADE2DAED7AD0259E987 /* badge_base_clean.png in Resources */,
+				31BD8D1D8198403CE07F3D81 /* badge_base_dec.png in Resources */,
+				5391F4568BECF59203656738 /* badge_base_jan.png in Resources */,
+				58B824B979CA670B0AA52E6F /* badge_base_sep.png in Resources */,
+				50FF55F86F3E756EC33C3DE6 /* leetcode_badge_oct.png in Resources */,
+				E49348D655381860B0C2CA7A /* mascot-alt.png in Resources */,
+				051F248182A381F5409BB419 /* mascot.png in Resources */,
+				EAD4D0030E5A7516B135A89B /* test_badge.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40E4FA43C3B8ECA88247FF19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3902850F8A68C293D9D534A /* ActivityService.swift in Sources */,
+				21F6AB88EEFE8151C364691B /* CodeOrbitWidget.swift in Sources */,
+				8240BF198936254E2BE1532C /* CodeOrbitWidgetBundle.swift in Sources */,
+				F5626B943B533487AE7A55BF /* GitHubHeatmapWidgetView.swift in Sources */,
+				5F3D722CA863E4756A2C5A6E /* LeetCodeStreakWidgetView.swift in Sources */,
+				AA56E706A5AB1303EA0ECA3D /* LeetCodeWidgetView.swift in Sources */,
+				62C48BD1D949F226FC985809 /* Models.swift in Sources */,
+				833BA869B764A96836AE6358 /* WidgetIntents.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D743B9D07CB22A61CA19DF60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				541A3DBBAE42C7537C3A010C /* ActivityService.swift in Sources */,
+				31899C7E8E79B19AFC4418DF /* App.swift in Sources */,
+				300C9908C019C3601AFBDDD7 /* CodeOrbit.swift in Sources */,
+				C8C7AAC446E398072C6A1EEB /* DashboardView.swift in Sources */,
+				8A0E36F3DA4EA7E49CE6B6AA /* GitHubHeatmapWidgetView.swift in Sources */,
+				BD95804F42A0BD0F542F2F0D /* LeetCodeStreakWidgetView.swift in Sources */,
+				004D2E63DF918EFBC67A7B7B /* LeetCodeWidgetView.swift in Sources */,
+				E6035D792E4F57F50502657F /* Logic.swift in Sources */,
+				8B0F9FF9048ED4714C162133 /* Models.swift in Sources */,
+				88DDBA35E47E9997CB25E2C7 /* SetupView.swift in Sources */,
+				1119885DC5208FFF6091A935 /* WidgetIntents.swift in Sources */,
+				B64778D5C9811565E0E0E826 /* WidgetSelectionView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABC574AC38E11F7B1A9220E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 622BAC085B4F87D042E7A8B1 /* CodeOrbitWidgets */;
+			targetProxy = F655ABF61A6A2D27DA29F557 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		13527AA187BD9D63B774A220 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		1A4B04754AE63FFBDEB90626 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Sources/CodeOrbitWidgets/CodeOrbitWidgets.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Sources/CodeOrbitWidgets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					WidgetKit,
+					"-framework",
+					AppIntents,
+					"-framework",
+					SwiftUI,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codeorbit.app.widgets;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = WIDGET_EXTENSION;
+			};
+			name = Release;
+		};
+		2F1B9445D3C1AF2BA3C6A4DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Sources/CodeOrbitWidgets/CodeOrbitWidgets.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Sources/CodeOrbitWidgets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					WidgetKit,
+					"-framework",
+					AppIntents,
+					"-framework",
+					SwiftUI,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codeorbit.app.widgets;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = WIDGET_EXTENSION;
+			};
+			name = Debug;
+		};
+		669AB26E81402E03E2BF907B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Sources/CodeOrbit/CodeOrbit.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Sources/CodeOrbit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					AppIntents,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codeorbit.app;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D5763716E5FEA4DCACEEEBB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		F1A6EB67382782473AD380F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Sources/CodeOrbit/CodeOrbit.entitlements;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Sources/CodeOrbit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					AppIntents,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codeorbit.app;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A742C550134E53381DFFC31 /* Build configuration list for PBXNativeTarget "CodeOrbitWidgets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F1B9445D3C1AF2BA3C6A4DF /* Debug */,
+				1A4B04754AE63FFBDEB90626 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		913EE04FEE3B943ADBBE9B2A /* Build configuration list for PBXNativeTarget "CodeOrbit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1A6EB67382782473AD380F1 /* Debug */,
+				669AB26E81402E03E2BF907B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BF20D941C141D912DF53BDE5 /* Build configuration list for PBXProject "CodeOrbit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5763716E5FEA4DCACEEEBB7 /* Debug */,
+				13527AA187BD9D63B774A220 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FDBA7ACD0598FE52379E216 /* Project object */;
+}
