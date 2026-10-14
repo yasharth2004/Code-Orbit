@@ -132,4 +132,6 @@ swift run CodeOrbit
 
 ## 📄 License
 
-MIT License. Designed with ❤️ for developers who love keeping their coding streak alive.
+CodeOrbit is released under the [MIT License](LICENSE).
+
+Copyright (c) 2026 Yasharth Kesarwani.
