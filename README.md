@@ -4,6 +4,14 @@
 
 ---
 
+## 📸 Screenshots
+
+| LeetCode Progress | GitHub Activity | LeetCode Daily Streak |
+| :---: | :---: | :---: |
+| ![LeetCode Progress](Screenshots/SS1.png) | ![GitHub Activity](Screenshots/SS2.png) | ![LeetCode Daily Streak](Screenshots/SS3.png) |
+
+---
+
 ## 📸 Widgets Included
 
 CodeOrbit installs directly into macOS's native Widget Gallery with three dedicated widgets:
